@@ -1,0 +1,34 @@
+# 依赖
+node_modules/
+
+# 打包产物
+dist/
+build/icon-*.png
+
+# 敏感配置（含 API Key，切勿提交）
+.env
+.env.local
+
+# 用户数据（运行时生成，绝不能提交）
+*-config.json
+api-config.json
+email-config.json
+mcp-config.json
+ima-config.json
+file-config.json
+pet-memory.json
+chat-history.json
+conversation-summary.json
+scheduled-tasks.json
+email-contacts.json
+skill-store-config.json
+avatars/
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+
+# 构建产物目录（含超大文件，超过 GitHub 100MB 限制）
+config-build/
