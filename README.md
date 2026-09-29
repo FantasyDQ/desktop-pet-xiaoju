@@ -55,19 +55,7 @@
 
 #### 支持的 AI 服务商（OpenAI 兼容格式）
 
-小橘猫支持任何兼容 OpenAI 接口的 AI 服务商，以下是常见选择：
-
-**🧠 AI 大脑（对话用）：**
-
-| 服务商 | API 地址 | 模型名示例 | 获取方式 |
-|--------|---------|-----------|---------|
-| 火山方舟（豆包） | `https://ark.cn-beijing.volces.com/api/v3` | `glm-5-2-260617`、`doubao-pro-32k` | [火山引擎控制台](https://console.volcengine.com/ark) |
-| DeepSeek | `https://api.deepseek.com/v1` | `deepseek-chat`、`deepseek-reasoner` | [DeepSeek 开放平台](https://platform.deepseek.com/) |
-| 硅基流动 | `https://api.siliconflow.cn/v1` | `deepseek-ai/DeepSeek-V3`、`Qwen/Qwen2.5-72B-Instruct` | [硅基流动控制台](https://cloud.siliconflow.cn/) |
-| OpenAI | `https://api.openai.com/v1` | `gpt-4o`、`gpt-4o-mini` | [OpenAI Platform](https://platform.openai.com/) |
-| 月之暗面 Kimi | `https://api.moonshot.cn/v1` | `moonshot-v1-8k`、`moonshot-v1-32k` | [Kimi 开放平台](https://platform.moonshot.cn/) |
-| 智谱 AI | `https://open.bigmodel.cn/api/paas/v4` | `glm-4-flash`、`glm-4-plus` | [智谱开放平台](https://open.bigmodel.cn/) |
-| 通义千问 | `https://dashscope.aliyuncs.com/compatible-mode/v1` | `qwen-plus`、`qwen-turbo` | [阿里云百炼](https://dashscope.console.aliyun.com/) |
+小橘猫支持任何兼容 OpenAI 接口的 AI 服务商
 
 **👁️ 图片理解（Vision 模型，用于截屏理解/图片分析）：**
 
